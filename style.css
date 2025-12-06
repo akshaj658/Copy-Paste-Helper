@@ -114,3 +114,36 @@ button {
   min-height: 18px;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  h1::after {
+    width: 100px;
+  }
+
+  .container {
+    width: 90%;
+    padding: 30px 20px;
+    margin-top: 80px;
+  }
+
+  textarea {
+    height: 120px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 18px;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  #status {
+    font-size: 13px;
+  }
+}
